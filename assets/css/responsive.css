@@ -17,6 +17,13 @@
     font-size: 60px;
     line-height: 74.27px;
   }
+  /* Property Types */
+  .PTHeading h2::after {
+    left: 53.6%;
+  }
+  .PTHeading h2::before {
+    left: 60.6%;
+  }
 }
 
 @media all and (min-width: 992px){
@@ -149,6 +156,13 @@
     font-size: 52px;
     line-height: 66.27px;
   }
+  /* Property Types */
+  .PTHeading h2::after {
+    left: 54.6%;
+  }
+  .PTHeading h2::before {
+    left: 63.6%;
+  }
 }
 
 @media all and (max-width: 767px){
@@ -173,8 +187,28 @@
     font-size: 40px;
     line-height: 52.27px;
   }
+  /* Property Types */
+  .text_36 {
+    font-size: 30px;
+    line-height: 40.16px;
+  }
+  .PTHeading h2::after {
+    left: 55.6%;
+  }
+  .PTHeading h2::before {
+    left: 66.6%;
+  }
 }
 
-@media all and (max-width: 575px){}
+@media all and (max-width: 575px){
+}
 
-@media all and (max-width: 450px){}
+@media all and (max-width: 450px){
+  /* Property Types */
+  .PTHeading h2::after {
+    left: 56.6%;
+  }
+  .PTHeading h2::before {
+    left: 70.6%;
+  }
+}

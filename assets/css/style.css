@@ -56,6 +56,19 @@ a{
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
 }
+.text_22{
+  font-size: 22.51px;
+  line-height: 30.65px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.text_36{
+  font-size: 36px;
+  line-height: 50.16px;
+  font-weight: 700;
+  color: #2A323C;
+  font-family: "Open Sans", sans-serif;
+}
 .text_72{
   font-size: 72px;
   line-height: 82.27px;
@@ -195,7 +208,7 @@ a{
   color: #FFFFFF;
   background: #FFFFFF33;
 }
-.bannerContain h2{
+.bannerContain h1{
   margin: 16px 0;
   max-width: 520px;
 }
@@ -234,3 +247,80 @@ a{
   background: #003e95;
 }
 
+/* Start : Property Types area 
+***************************************/
+.PTHeading h2{
+  margin: 62.43px 0 70.73px;
+  text-align: center;
+  position: relative;
+}
+.PTHeading h2::after{
+  content: '';
+  position: absolute;
+  left: 52.6%;
+  bottom: -7px;
+  width: 46px;
+  height: 1.02px;
+  background: #1252AE80;
+}
+.PTHeading h2::before{
+  content: '';
+  position: absolute;
+  left: 57.6%;
+  bottom: -7px;
+  width: 20px;
+  height: 1.02px;
+  background: #1252AE40;
+}
+.PTHeading h2 span{
+  color: #1252AE;
+  position: relative;
+}
+.PTHeading h2 span::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 97%;
+  height: 1.02px;
+  background: #2A323C;
+}
+.propertyTypesItem{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.single_PTI{
+  max-width: 200px;
+  text-align: center;
+}
+.single_PTI_img{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 102.31px;
+  height: 102.31px;
+  background: linear-gradient(140.59deg, rgba(18, 82, 174, 0.3) 14.56%, rgba(18, 82, 174, 0) 86.74%);
+  box-shadow: 0px 6.14px 7.16px 0px #1252AE33 inset;
+  border-radius: 50%;
+}
+.single_PTI_img img{
+  width: 68.55px;
+  height: 68.55px;
+}
+.single_PTI h4{
+  margin-top: 17.39px;
+}
+.single_PTI p{
+  max-width: 106.4px;
+  margin: auto;
+  font-size: 14.32px;
+  font-weight: 400;
+  line-height: 19.51px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  background: #EBEEF2;
+  box-shadow: 0px 2.05px 1.02px 0px #242D3C33;
+  border-radius: 51.16px;
+}
