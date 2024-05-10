@@ -12,6 +12,11 @@
   .menu nav ul li a {
     font-size: 19px;
   }
+  /* Banner area */
+  .text_72 {
+    font-size: 60px;
+    line-height: 74.27px;
+  }
 }
 
 @media all and (min-width: 992px){
@@ -136,6 +141,14 @@
     left: 2px;
   }
   /*End Mobile Menu icon*/
+  /* Banner area */
+  .bannerContain h2 {
+    max-width: 400px;
+  }
+  .text_72 {
+    font-size: 52px;
+    line-height: 66.27px;
+  }
 }
 
 @media all and (max-width: 767px){
@@ -148,6 +161,17 @@
   }
   .header-logo img {
     max-width: 75px;
+  }
+  /* Banner area */
+  .bannerContain {
+    padding: 60px 0 100px;
+  }
+  .bannerContain h2 {
+    max-width: 300px;
+  }
+  .text_72 {
+    font-size: 40px;
+    line-height: 52.27px;
   }
 }
 

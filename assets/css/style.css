@@ -32,15 +32,7 @@ h6, .h6 {
   margin-bottom: 16px;
   letter-spacing: 0.02em; */
 }
-h1, .h1 {
-  font-size: 64px;
-}
-h2, .h2 {
-  font-size: 42px;
-}
-h3, .h3 {
-  font-size: 32px;
-}
+
 ul,li{
   margin: 0;
   padding: 0;
@@ -57,6 +49,20 @@ a{
 }
 .reboot-list {
   padding: 0;margin: 0;list-style-type: none;
+}
+.text_15{
+  font-size: 15.27px;
+  line-height: 20.8px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+.text_72{
+  font-size: 72px;
+  line-height: 82.27px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 2.18px 3.27px 4.36px 0px #0A193047;
+  text-shadow: 0 0 #0A193047;
 }
 
 /*  main header area css start
@@ -171,5 +177,60 @@ a{
 }
 .menu-bar{
   display: none;
+}
+
+/* Start : Banner area css
+**********************************/
+.bannerArea{
+  width: 100%;
+  background: url(../images/Banner.png) no-repeat scroll center center / cover;
+}
+.bannerContain{
+  padding: 90px 0 163px;
+}
+.bannerContain h6{
+  max-width: 202px;
+  padding: 5px 26px;
+  border: 1.09px solid #FFFFFF40;
+  color: #FFFFFF;
+  background: #FFFFFF33;
+}
+.bannerContain h2{
+  margin: 16px 0;
+  max-width: 520px;
+}
+.bannerContain span{
+  color: #1252AE;
+}
+.bannerContain p{
+  max-width: 437px;
+  color: #2A323C;
+  font-size: 16.36px;
+  line-height: 22.28px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+.bannerLPP{
+  display: flex;
+  align-items: center;
+  gap: 13.09px;
+  margin-top: 47.64px;
+  max-width: 714px;
+  padding: 15px 14px;
+  background: #FFFFFF33;
+  border: 1.09px solid #FFFFFF40
+}
+.homeSearchBar{
+  max-width: 122.18px;
+}
+.homeSearchBar a{
+  color: #FFFFFF;
+  background: #1252AE;
+  padding: 8.73px 21.45px;
+  transition: all 360ms ease;
+}
+.homeSearchBar a:hover{
+  color: #FFFFFF;
+  background: #003e95;
 }
 
