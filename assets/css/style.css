@@ -500,3 +500,93 @@ a{
   color: #ffffff;
   background: #307ce6;
 }
+
+
+
+
+/* Start : Footer area 
+*********************************/
+.footer_area{
+  padding-top: 59px;
+  background: #FFFFFF;
+  font-family: "Inter", sans-serif !important;
+}
+.footerText_22{
+  color: #333333;
+  font-size: 22.86px;
+  font-weight: 700;
+  line-height: 33.76px;
+  font-family: "Poppins", sans-serif;
+}
+.footerLogo img{
+ max-width: 140px;
+ margin: auto;
+}
+.footerLogo p{
+  margin-top: 6px;
+  max-width: 183.81px;
+  color: #333333;
+  font-size: 13.33px;
+  font-weight: 400;
+  line-height: 19.05px;
+  text-align: justify;
+}
+.footerExplore{
+  margin-top: 19.33px;
+}
+.footerExplore li{
+  margin-bottom: 7.48px;
+}
+.footerExplore li a{
+  display: inline;
+  color: #333333;
+  font-size: 15.24px;
+  font-weight: 500;
+  line-height: 22.86px;
+  font-family: "Poppins", sans-serif;
+  transition: all 360ms ease;
+}
+.footerExplore li a:hover{
+  color: #867575;
+}
+.footerApp{
+  margin-top: 13.62px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footerApp img{
+  max-width: 118px;
+}
+.footerSocial ul{
+  margin-top: 16px;
+  display: flex;
+  gap: 15px;
+}
+.footerSocial ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24.76px;
+  height: 24.76px;
+  padding: 5.75px;
+  color: #333333;
+  border-radius: 50%;
+  transition: all 360ms ease;
+}
+.footerSocial ul li a:hover{
+  color: #ffffff;
+  background: #003e95;
+}
+.footerSocial ul li a .f_Icon{
+  width: 13.33px;
+  height: 13.33px;
+}
+.copyright{
+  font-size: 13.33px;
+  font-weight: 400;
+  line-height: 16.14px;
+  padding: 58px 0 14px;
+  text-align: center;
+  color: #333333;
+}

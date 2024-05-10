@@ -180,6 +180,12 @@
   .attractiveOffersItem {
     grid-template-columns: repeat(2,1fr);
   }
+  .footerLogo img {
+    max-width: 110px;
+  }
+  .footerLogo p {
+    max-width: 100%;
+  }
 }
 
 @media all and (max-width: 767px){
