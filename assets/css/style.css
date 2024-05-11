@@ -69,6 +69,13 @@ a{
   line-height: 45px;
   font-family: "Poppins", sans-serif;
 }
+.text_34{
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 51px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
 .text_36{
   font-size: 36px;
   line-height: 50.16px;
@@ -507,6 +514,93 @@ a{
   background: #307ce6;
 }
 
+/* Start : Clients About Us
+***************************************/
+.clientsAboutUs{
+  padding: 100px 0 0;
+}
+.clientsAboutUsContain h2{
+  color: #333333;
+}
+.card_CAU{
+  padding: 50px 0 132px 0;
+}
+.swiperBtnPN .swiper-button-next, .swiper-button-prev {
+  top: 83%;
+}
+.swiperBtnPN .swiper-button-next{
+  left: 52%;
+  width: 46px;
+  height: 46px;
+  color: #FFFFFF;
+  background: #1252AE;
+  border-radius: 50%;
+  transition: all 360ms ease;
+}
+.swiperBtnPN .swiper-button-next:hover{
+  color: #ffffff;
+  background: #126be7;
+}
+.swiperBtnPN .swiper-button-prev{
+  left: 47%;
+  width: 46px;
+  height: 46px;
+  color: #333333;
+  background: #FFFFFF;
+  border: 2px solid #1252AE;
+  border-radius: 50%;
+  transition: all 360ms ease;
+}
+.swiperBtnPN .swiper-button-prev:hover{
+  color: #ffffff;
+  background: #126be7;
+}
+.swiperBtnPN .swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 10px;
+}
+.singleCard_CAU{
+  width: 400px;
+  margin: auto;
+  display: flex;
+  gap: 12px;
+  padding: 13px 14px 14px;
+  border-radius: 12px;
+  background: #FFFFFF;
+}
+.singleCard_CAU_img img{
+  width: 59px;
+}
+.singleCard_CAU_text{
+  max-width: 301px;
+  font-family: "Montserrat", sans-serif !important;
+}
+.singleCard_CAU_text h4{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #333333;
+}
+.singleCard_CAU_text h6{
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #333333;
+}
+.singleCard_CAU_text p{
+  margin: 16px 0 21px 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #333333;
+}
+.singleCard_CAU_text span{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #333333;
+}
+
 /* Start : Our Newsletters area
 ***************************************/
 .ourNewsletters{
@@ -578,6 +672,23 @@ a{
 .ourNews_btn:hover{
   color: #FFFFFF;
   background: #0f6df0;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 /* Start : Footer area 

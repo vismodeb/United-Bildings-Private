@@ -32,6 +32,12 @@
   .attractiveOffersItem {
     grid-template-columns: repeat(3,1fr);
   }
+  .singleCard_CAU_img img{
+    width: 50px;
+  }
+  .swiperBtnPN .swiper-button-prev {
+    left: 45%;
+  }
 }
 
 @media all and (min-width: 992px){
@@ -186,6 +192,15 @@
   .footerLogo p {
     max-width: 100%;
   }
+  .swiperBtnPN .swiper-button-prev {
+    left: 43%;
+    width: 40px;
+    height: 40px;
+  }
+  .swiperBtnPN .swiper-button-next {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media all and (max-width: 767px){
@@ -241,6 +256,9 @@
     width: 100%;
     max-width: 100%;
   }
+  .swiperBtnPN .swiper-button-prev {
+    left: 40%;
+  }
 }
 
 @media all and (max-width: 575px){
@@ -261,5 +279,14 @@
   /* Attractive offers */
   .heading_AO p::after {
     left: 55.8%;
+  }
+  .swiperBtnPN .swiper-button-prev {
+    left: 36%;
+    width: 36px;
+    height: 36px;
+  }
+  .swiperBtnPN .swiper-button-next {
+    width: 36px;
+    height: 36px;
   }
 }

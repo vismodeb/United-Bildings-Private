@@ -35,5 +35,30 @@ $(document).ready(function(){
       },
     },
   });
-  
+
+  // Clients About Us
+  var swiper = new Swiper(".card_CAU", {
+    rewind: true,
+    slidesPerView: 1,
+    centeredSlides: false,
+    spaceBetween: 50,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+      },
+      767: {
+        slidesPerView: 2,
+      },
+      991: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+    },
+  });
+
+
 });
