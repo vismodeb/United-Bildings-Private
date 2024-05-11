@@ -83,6 +83,12 @@ a{
   color: #2A323C;
   font-family: "Open Sans", sans-serif;
 }
+.text_48{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  font-family: "Sora", sans-serif;
+}
 .text_72{
   font-size: 72px;
   line-height: 82.27px;
@@ -513,6 +519,99 @@ a{
   color: #ffffff;
   background: #307ce6;
 }
+.attractiveOffersItem .card-body{
+  padding: 10px 19px 22px;
+  height: auto;
+}
+
+/* Start : faq Questions area 
+***************************************/
+.faqQuestions{
+  padding: 100px 0 0;
+}
+.faqQuestionsContain{
+  max-width: 970px;
+  margin: auto;
+}
+.headingFaqQ{
+  text-align: center;
+  color: #333333;
+}
+.headingFaqQ p{
+  max-width: 769px;
+  margin: 24px auto 42px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Poppins", sans-serif;
+}
+.faqQuestionsContain .accordion-item {
+  background: #fff;
+  padding: 20px 50px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+.faqQuestionsContain .accordion-item h2{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #333333;
+  font-family: "Sora", sans-serif;
+}
+.faqQuestionsContain .accordion-item p{
+  max-width: 572px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+}
+.faqQuestionsContain .accordion-item:has(.accordion-button:not(.collapsed)) {
+  border-color: transparent;
+  padding-bottom: 0;
+  background: #E6EDF8;
+  padding: 20px 50px 32px;
+  border-radius: 8px;
+}
+.faqQuestionsContain .accordion-body {
+  padding: 14px 0 32px;
+}
+.faqQuestionsContain .accordion {
+  --bs-accordion-border-radius: 0;
+  --bs-accordion-inner-border-radius: 0;
+  --bs-accordion-btn-padding-x: 0;
+  /* --bs-accordion-btn-padding-y: 48px; */
+  --bs-accordion-btn-focus-border-color: transparent;
+  --bs-accordion-btn-focus-box-shadow: none;
+  /* --bs-accordion-border-width: 0; */
+  --bs-accordion-active-color: var(--text);
+  --bs-accordion-active-bg: transparent;
+  --bs-accordion-color: var(--text);
+  --bs-accordion-bg: var(--background);
+  --bs-accordion-border-color: var(var(--primary_light));
+  --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/></svg>');
+  --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/></svg>');
+  --bs-accordion-btn-icon-width: 2rem;
+  --bs-accordion-body-padding-x: 0;
+  --bs-accordion-body-padding-y: 0;
+}
+.faqQuestionsContain .accordion-item {
+  border-color: transparent transparent var(--bs-accordion-border-color) transparent;
+}
+.faqQuestionsContain .accordion-item:last-of-type {
+  border-color: transparent;
+}
+.faqQuestionsContain .accordion-item:has(.accordion-button:not(.collapsed)) {
+  border-color: transparent;
+  padding-bottom: 0;
+}
+.faqQuestionsContain .accordion-button {
+  gap: 1rem;
+}
+.faqQuestionsContain .accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
 
 /* Start : Clients About Us
 ***************************************/

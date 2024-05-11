@@ -203,7 +203,11 @@
   }
   .swiper-slide.singleCard_CAU.swiper-slide-next {
     margin-bottom: 0;
-  } 
+  }
+  .text_48 {
+    font-size: 40px;
+    line-height: 54px;
+  }
 }
 
 @media all and (max-width: 767px){
@@ -261,13 +265,32 @@
   }
   .swiperBtnPN .swiper-button-prev {
     left: 40%;
-  } 
+  }
+  .text_34 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .faqQuestionsContain .accordion-item {
+    padding: 10px 30px;
+    margin-bottom: 24px;
+  }
+  .faqQuestionsContain .accordion-item:has(.accordion-button:not(.collapsed)) {
+    padding: 10px 30px 0;
+  }
+  .text_48 {
+    font-size: 36px;
+    line-height: 52px;
+  }
 }
 
 @media all and (max-width: 575px){
   /* Attractive offers */
   .heading_AO p::after {
     left: 55%;
+  }
+  .text_48 {
+    font-size: 32px;
+    line-height: 48px;
   }
 }
 
