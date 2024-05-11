@@ -1,3 +1,27 @@
+@media all and (max-width: 1400px){
+  .coundproperties {
+    bottom: 48px;
+    left: 48px;
+    max-width: 565.78px;
+    padding: 26px 30px;
+  }
+  .coundproperties h4 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .benefitsPropertyList {
+    margin: 28px 0 45px;
+  }
+  .benefitsPropertyList li {
+    margin-bottom: 24px;
+  }
+  .single_benefitsProperty_right img {
+    max-width: 565px;
+  }
+  .coundproperties img {
+    max-width: 180.76px;
+  }
+}
 @media all and (max-width: 1200px){
   .container{
     padding: 0 15px;
@@ -37,6 +61,19 @@
   }
   .swiperBtnPN .swiper-button-prev {
     left: 45%;
+  }
+  .coundproperties img {
+    max-width: 164.76px;
+  }
+  .coundproperties {
+    bottom: 44px;
+    left: 40px;
+    max-width: 392.78px;
+    padding: 26px 20px;
+  }
+  .coundproperties h4 {
+    font-size: 24px;
+    line-height: 30px;
   }
 }
 
@@ -213,6 +250,22 @@
     font-size: 36px;
     line-height: 44px;
   }
+  .contain_BP {
+    flex-direction: column;
+    gap: 57px;
+  }
+  .single_benefitsProperty_left h2 {
+    margin: 14px 0 18px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .coundproperties {
+    max-width: 85%;
+    width: 85%;
+  }
+  .single_benefitsProperty_right {
+    order: -1;
+  }
 }
 
 @media all and (max-width: 767px){
@@ -286,6 +339,11 @@
     font-size: 36px;
     line-height: 52px;
   }
+  .single_benefitsProperty_left h2 {
+    margin: 12px 0 13px;
+    font-size: 36px;
+    line-height: 47px;
+  }
 }
 
 @media all and (max-width: 575px){
@@ -326,5 +384,17 @@
   .swiperBtnPN .swiper-button-next {
     width: 36px;
     height: 36px;
+  }
+  .coundproperties img {
+    max-width: 138.76px;
+  }
+  .coundproperties {
+    bottom: 35px;
+    left: 29px;
+    padding: 24px 20px;
+  }
+  .coundproperties h4 {
+    font-size: 22px;
+    line-height: 26px;
   }
 }

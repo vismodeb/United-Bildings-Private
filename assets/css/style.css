@@ -524,6 +524,99 @@ a{
   height: auto;
 }
 
+/* Start : Benefits Property area 
+***************************************/
+.benefitsProperty{
+  padding-top: 90px;
+}
+.contain_BP{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.single_benefitsProperty_left h6{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #2360B6;
+  font-family: "Poppins", sans-serif;
+}
+.single_benefitsProperty_left h2{
+  margin: 16px 0 20px;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+  color: #333333;
+  font-family: "Sora", sans-serif;
+}
+.single_benefitsProperty_left .text_16{
+  max-width: 471px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+}
+.benefitsPropertyList{
+  margin: 43px 0 65px;
+}
+.benefitsPropertyList li{
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-bottom: 36px;
+}
+.benefitsPropertyList li img{
+  width: 17px;
+}
+.buyNowBtn{
+  max-width: 231px;
+  padding: 17px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #2360B6;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+  transition: all 360ms ease;
+}
+.buyNowBtn:hover{
+  color: #FFFFFF;
+  background: #1871ed;
+}
+.single_benefitsProperty_right{
+  position: relative;
+}
+.single_benefitsProperty_right img{
+  max-width: 630px;
+}
+.coundproperties {
+  position: absolute;
+  bottom: 48px;
+  left: 48px;
+  max-width: 565.78px;
+  margin: auto;
+  padding: 38px 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 22px;
+  box-shadow: 10px 14px 74px 0px #025C8A45;
+  background: linear-gradient(125.01deg, rgba(0, 0, 0, 0.45) 29.4%, rgba(0, 0, 0, 0) 97.93%);
+}
+.coundproperties h4{
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+}
+.coundproperties img{
+  max-width: 193.76px;
+}
+
 /* Start : selling a property area 
 ***************************************/
 .sellingAProperty{
