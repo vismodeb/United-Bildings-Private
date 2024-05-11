@@ -524,6 +524,59 @@ a{
   height: auto;
 }
 
+/* Start : selling a property area 
+***************************************/
+.sellingAProperty{
+  padding-top: 120px;
+}
+.sellingAPropertyContain{
+  margin: auto;
+  padding: 105px 60px 113px;
+  background: url(../images/selling-a-property.png) no-repeat scroll center center / cover;
+  text-align: center;
+}
+.sellingAPropertyContain h6{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #F5F2F2;
+  font-family: "Poppins", sans-serif;
+}
+.sellingAPropertyContain h2{
+  margin: 16px 0;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+  color: #F5F2F2;
+  font-family: "Sora", sans-serif;
+}
+.sellingAPropertyContain p{
+  max-width: 970px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #F5F2F2;
+  font-family: "Poppins", sans-serif;
+}
+.sellNowBtn{
+  max-width: 231px;
+  margin: 23px auto 0;
+  padding: 17px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #FFFFFF;
+  background: #2360B6;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+  transition: all 360ms ease;
+}
+.sellNowBtn:hover{
+  color: #FFFFFF;
+  background: #1871ed;
+}
+
 /* Start : faq Questions area 
 ***************************************/
 .faqQuestions{
