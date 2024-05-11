@@ -229,6 +229,18 @@
   .attractiveOffersItem {
     grid-template-columns: repeat(1,1fr);
   }
+  /* Our Newsletters */
+  .ourNewsletters {
+    padding: 58px 0;
+    border-bottom: 56px;
+  }
+  .ourNewsForm {
+    flex-direction: column;
+  }
+  .ourNewsForm .formBox1 {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media all and (max-width: 575px){

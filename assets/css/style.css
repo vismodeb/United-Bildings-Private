@@ -63,6 +63,12 @@ a{
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
 }
+.text_30{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  font-family: "Poppins", sans-serif;
+}
 .text_36{
   font-size: 36px;
   line-height: 50.16px;
@@ -501,8 +507,78 @@ a{
   background: #307ce6;
 }
 
-
-
+/* Start : Our Newsletters area
+***************************************/
+.ourNewsletters{
+  padding: 107px 0;
+  background: #FFFFFF;
+  margin-bottom: 100px;
+}
+.headerOurNews{
+  color: #333333;
+  text-align: center;
+}
+.headerOurNews p{
+  margin: 16px 0 48px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
+}
+.ourNewsForm{
+  max-width: 859px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.ourNewsForm .formBox1 {
+  width: 100%;
+  max-width: 303px;
+}
+.ourNewslettersContain label{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #999999;
+  font-family: "Poppins", sans-serif;
+}
+.ourNewslettersContain .form-control {
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #999999;
+  background-color: #fff;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #999999;
+}
+.ourNewslettersContain .form-control:focus {
+  border-color: #999999;
+  outline: 0;
+  box-shadow: none;
+}
+.ourNews_btn{
+  max-width: 175px;
+  margin: auto;
+  padding: 12px 47px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #1252AE;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: all 360ms ease;
+}
+.ourNews_btn:hover{
+  color: #FFFFFF;
+  background: #0f6df0;
+}
 
 /* Start : Footer area 
 *********************************/
