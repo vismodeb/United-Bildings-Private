@@ -558,6 +558,9 @@ a{
 .swiperBtnPN .swiper-button-next:after, .swiper-button-prev:after {
   font-size: 10px;
 }
+.swiper-slide.singleCard_CAU.swiper-slide-next {
+  margin-bottom: 40px;
+}
 .singleCard_CAU{
   width: 400px;
   margin: auto;

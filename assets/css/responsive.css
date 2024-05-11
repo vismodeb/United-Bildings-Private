@@ -201,6 +201,9 @@
     width: 40px;
     height: 40px;
   }
+  .swiper-slide.singleCard_CAU.swiper-slide-next {
+    margin-bottom: 0;
+  } 
 }
 
 @media all and (max-width: 767px){
@@ -258,7 +261,7 @@
   }
   .swiperBtnPN .swiper-button-prev {
     left: 40%;
-  }
+  } 
 }
 
 @media all and (max-width: 575px){
