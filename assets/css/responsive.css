@@ -21,6 +21,29 @@
   .coundproperties img {
     max-width: 180.76px;
   }
+  .leftAboutImages .image2 {
+    width: 191.25px;
+    height: 179.71px;
+  }
+  .rightAboutContent h2 {
+    margin: 14px 0 22px;
+    line-height: 48.87px;
+  }
+  .fiveYears {
+    margin: 22px 0;
+    gap: 26px;
+  }
+  .fiveYears img {
+    width: 136px;
+  }
+  .leftAboutImages .image3 {
+    width: 298.82px;
+    height: 383.65px;
+  }
+  .leftAboutImages .image1 {
+    width: 390.56px;
+    height: 535.52px;
+  }
 }
 @media all and (max-width: 1200px){
   .container{
@@ -74,6 +97,32 @@
   .coundproperties h4 {
     font-size: 24px;
     line-height: 30px;
+  }
+  .fiveYearsRight h3 span {
+    font-size: 18.22px;
+    line-height: 26.84px;
+  }
+  .fiveYearsRight h3 {
+    font-size: 46.67px;
+  }
+  .aboutUs {
+    gap: 40px;
+  }
+  .leftAbout {
+    width: 52%;
+  }
+  .rightAbout {
+    width: 48%;
+  }
+  .leftAboutImages .image1 {
+    width: 315.56px;
+  }
+  .leftAboutImages .image2 {
+    width: 150.25px;
+    height: 182.71px;
+  }
+  .leftAboutImages .image3 {
+    width: 269.82px;
   }
 }
 
@@ -266,6 +315,36 @@
   .single_benefitsProperty_right {
     order: -1;
   }
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 100px;
+  }
+  .leftAbout {
+    width: 100%;
+  }
+  .rightAbout {
+    width: 100%;
+    margin-top: 592px;
+  }
+  .leftAboutImages .image1 {
+    width: 418.56px;
+  }
+  .leftAboutImages .image2 {
+    width: 268.25px;
+  }
+  .leftAboutImages .image3 {
+    width: 344.82px;
+  }
+  .aboutUsArea::after {
+    bottom: 623px;
+    left: -10%;
+  }
+  .rightAboutContent h2 {
+    max-width: 100%;
+    font-size: 37.26px;
+  }
 }
 
 @media all and (max-width: 767px){
@@ -344,6 +423,28 @@
     font-size: 36px;
     line-height: 47px;
   }
+  .leftAboutImages .image1 {
+    width: 324.56px;
+    height: 464.52px;
+  }
+  .leftAboutImages .image2 {
+    width: 188.25px;
+    height: 153.71px;
+  }
+  .leftAboutImages .image3 {
+    width: 260.82px;
+    height: 338.65px;
+    top: 174px;
+  }
+  .aboutUsArea::after {
+    left: -20%;
+  }
+  .aboutUs {
+    margin-top: 70px;
+  }
+  .rightAbout {
+    margin-top: 490px;
+  }
 }
 
 @media all and (max-width: 575px){
@@ -361,6 +462,28 @@
   }
   .sellingAPropertyContain {
     padding: 70px 20px 70px;
+  }
+  .aboutUsArea::after {
+    left: -40%;
+  }
+  .rightAboutContent h2 {
+    font-size: 32.26px;
+  }
+}
+
+@media all and (max-width: 530px){
+.leftAboutImages .image1 {
+    width: 304.56px;
+    height: 439.52px;
+  }
+  .leftAboutImages .image2 {
+    width: 170.25px;
+    height: 139.71px;
+  }
+  .leftAboutImages .image3 {
+    width: 248.82px;
+    height: 336.65px;
+    top: 166px;
   }
 }
 
@@ -396,5 +519,33 @@
   .coundproperties h4 {
     font-size: 22px;
     line-height: 26px;
+  }
+  .leftAboutImages .image1 {
+    width: 60%;
+    height: 390.52px;
+  }
+  .leftAboutImages .image2 {
+    width: 40%;
+    height: 130.71px;
+  }
+  .leftAboutImages .image3 {
+    width: 51%;
+    height: 288.65px;
+    top: 150px;
+  }
+  .rightAbout {
+    margin-top: 408px;
+  }
+  .aboutUsArea::after {
+    left: -56%;
+    width: 349.31px;
+    height: 231.44px;
+    bottom: 60%;
+  }
+}
+
+@media all and (max-width: 390px){
+  .aboutUsArea::after {
+    bottom: 62%;
   }
 }
