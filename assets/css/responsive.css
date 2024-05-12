@@ -351,6 +351,22 @@
     max-width: 100%;
     font-size: 37.26px;
   }
+  .homeLocation {
+    grid-template-columns: repeat(2,1fr);
+  }
+  .bannerLPP {
+    margin-top: 40px;
+    max-width: 398px;
+  }
+  .homeSearchBar {
+    max-width: 100%;
+  }
+  .homeSearchBar a {
+    text-align: center;
+  }
+  .bannerContain {
+    padding: 60px 0 90px;
+  }
 }
 
 @media all and (max-width: 767px){
@@ -366,7 +382,7 @@
   }
   /* Banner area */
   .bannerContain {
-    padding: 60px 0 100px;
+    padding: 60px 0;
   }
   .bannerContain h2 {
     max-width: 300px;
@@ -455,6 +471,10 @@
     font-size: 30px;
     line-height: 40px;
   }
+  .single_AOI {
+    max-width: 90%;
+    width: 90%;
+  }
 }
 
 @media all and (max-width: 575px){
@@ -482,6 +502,39 @@
   .allImages {
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
+  }
+  .PTHeading h2 {
+    margin: 46.43px 0 50.73px;
+  }
+  .propertyTypes .swiper {
+    height: 240px;
+  }
+  .heading_AO {
+    padding: 60px 0 36px 0;
+    text-align: center;
+  }
+  .freSearchedLocations {
+    padding-top: 60px;
+  }
+  .freSearchedLocations h3 {
+    padding-bottom: 30px;
+  }
+  .sellingAProperty,
+  .benefitsProperty {
+    padding-top: 60px;
+  }
+  .faqQuestions {
+    padding: 60px 0 0;
+  }
+  .clientsAboutUs {
+    padding: 54px 0 0;
+  }
+  .ourNewsletters {
+    padding: 40px 0;
+  }
+  .footer_area {
+    padding-top: 40px;
+    /* text-align: center; */
   }
 }
 
@@ -559,6 +612,12 @@
   .allImages {
     grid-template-columns: repeat(1, 1fr);
     gap: 18px;
+  }
+  .homeLocation_single_item {
+    width: 100%;
+  }
+  .homeSearchBar {
+    max-width: 100%;
   }
 }
 

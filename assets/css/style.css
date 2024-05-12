@@ -244,9 +244,6 @@ a{
   font-family: "Open Sans", sans-serif;
 }
 .bannerLPP{
-  display: flex;
-  align-items: center;
-  gap: 13.09px;
   margin-top: 47.64px;
   max-width: 714px;
   padding: 15px 14px;
@@ -259,12 +256,48 @@ a{
 .homeSearchBar a{
   color: #FFFFFF;
   background: #1252AE;
-  padding: 8.73px 21.45px;
+  padding: 11px 21.45px;
   transition: all 360ms ease;
 }
 .homeSearchBar a:hover{
   color: #FFFFFF;
   background: #003e95;
+}
+.homeLocation{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 13px;
+}
+.homeLocation_single_item{
+  padding: 0 0 0 13px;
+  display: flex;
+  align-items: center;
+  width: 174.55px;
+  background: #FFFFFF;
+}
+.homeLocation_single_item img{
+  width: 15.27px;
+  height: 15.27px;
+}
+.homeLocation_single_item .form-select {
+  font-size: 15.27px;
+  font-weight: 400;
+  line-height: 20.8px;
+  padding: 13px 13px 13px 5px;
+  color: #7A818C;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-family: "Open Sans", sans-serif;
+}
+.homeLocation_single_item option{
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  box-shadow: none;
+  background: #ffffff;
 }
 
 /* Start : Property Types area 
@@ -747,7 +780,6 @@ a{
   grid-template-columns: repeat(3, 1fr);
   gap: 22px;
 }
-
 .allImages > div:nth-of-type(2) {
   grid-row: span 2;
 }
@@ -1023,7 +1055,6 @@ a{
 .faqQuestionsContain .accordion-button:not(.collapsed) {
   box-shadow: none;
 }
-
 
 /* Start : Clients About Us
 ***************************************/
