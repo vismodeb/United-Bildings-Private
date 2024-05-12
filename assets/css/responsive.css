@@ -44,6 +44,9 @@
     width: 390.56px;
     height: 535.52px;
   }
+  .single_AOI {
+    height: 371px;
+  }
 }
 @media all and (max-width: 1200px){
   .container{
@@ -123,6 +126,9 @@
   }
   .leftAboutImages .image3 {
     width: 269.82px;
+  }
+  .single_AOI {
+    height: auto;
   }
 }
 
@@ -445,6 +451,10 @@
   .rightAbout {
     margin-top: 490px;
   }
+  .freSearchedLocations h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 
 @media all and (max-width: 575px){
@@ -468,6 +478,10 @@
   }
   .rightAboutContent h2 {
     font-size: 32.26px;
+  }
+  .allImages {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
   }
 }
 
@@ -541,6 +555,10 @@
     width: 349.31px;
     height: 231.44px;
     bottom: 60%;
+  }
+  .allImages {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 18px;
   }
 }
 
