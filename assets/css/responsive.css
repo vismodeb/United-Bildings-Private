@@ -18,9 +18,6 @@
   .single_benefitsProperty_right img {
     max-width: 565px;
   }
-  .coundproperties img {
-    max-width: 180.76px;
-  }
   .leftAboutImages .image2 {
     width: 191.25px;
     height: 179.71px;
@@ -88,12 +85,10 @@
   .swiperBtnPN .swiper-button-prev {
     left: 45%;
   }
-  .coundproperties img {
-    max-width: 164.76px;
-  }
   .coundproperties {
     bottom: 44px;
     left: 40px;
+    gap: 12%;
     max-width: 392.78px;
     padding: 26px 20px;
   }
@@ -367,6 +362,9 @@
   .bannerContain {
     padding: 60px 0 90px;
   }
+  .coundproperties {
+    gap: 26%;
+  }
 }
 
 @media all and (max-width: 767px){
@@ -475,6 +473,9 @@
     max-width: 90%;
     width: 90%;
   }
+  .coundproperties {
+    gap: 20%;
+  }
 }
 
 @media all and (max-width: 575px){
@@ -534,7 +535,9 @@
   }
   .footer_area {
     padding-top: 40px;
-    /* text-align: center; */
+  }
+  .coundproperties {
+    gap: 40px;
   }
 }
 
@@ -551,6 +554,9 @@
     width: 248.82px;
     height: 336.65px;
     top: 166px;
+  }
+  .coundproperties {
+    gap: 0px;
   }
 }
 
@@ -574,9 +580,6 @@
   .swiperBtnPN .swiper-button-next {
     width: 36px;
     height: 36px;
-  }
-  .coundproperties img {
-    max-width: 138.76px;
   }
   .coundproperties {
     bottom: 35px;
@@ -618,6 +621,13 @@
   }
   .homeSearchBar {
     max-width: 100%;
+  }
+  .coundproperties {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .benefitsSingleImg {
+    margin-left: -60px;
   }
 }
 

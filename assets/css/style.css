@@ -375,6 +375,17 @@ a{
 .propertyTypes .swiper {
   height: 280px;
 }
+.propertyTypesItem .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  border-radius: 2.05px;
+}
+.propertyTypesItem .swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: url(../images/active\ dot.svg) no-repeat scroll center center / cover;
+  width: 21px;
+  height: 21px;
+}
 
 /* Start : Attractive offers area 
 *******************************************/
@@ -894,11 +905,11 @@ a{
   position: absolute;
   bottom: 48px;
   left: 48px;
-  max-width: 565.78px;
+  width: 84%;;
   margin: auto;
   padding: 38px 33px;
   display: flex;
-  justify-content: space-between;
+  gap: 15%;
   align-items: center;
   border-radius: 22px;
   box-shadow: 10px 14px 74px 0px #025C8A45;
@@ -911,9 +922,28 @@ a{
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
 }
-.coundproperties img{
-  max-width: 193.76px;
+.benefitsSingleImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
+.benefitsSingleImg img{
+  width: 70px;
+}
+.benefitsImg_2{
+  position: absolute;
+  left: 22px;
+}
+.benefitsImg_3{
+  position: absolute;
+  left: 46px;
+}
+.benefitsImg_4{
+  position: absolute;
+  left: 68px;
+}
+
 
 /* Start : selling a property area 
 ***************************************/
